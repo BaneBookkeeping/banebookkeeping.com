@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Bane Bookkeeping</title>
+<meta name="description" content="Get in touch with Bane Bookkeeping — call, email, or send a message to book your free consultation.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">Bane<span>Bookkeeping</span></a>
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" aria-current="page" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" style="padding-bottom:56px;">
+    <div class="wrap">
+      <div class="eyebrow">Contact</div>
+      <h1>Let's talk about your books.</h1>
+      <div class="ledger-rule"><span></span><span></span></div>
+      <p class="lede">Call, email, or send a message below. No pressure — just a conversation about what your business needs.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="wrap">
+      <div class="grid grid-2">
+
+        <div>
+          <h2>Reach Us Directly</h2>
+          <ul class="contact-list">
+            <li>
+              <span class="label">Phone</span>
+              <a href="tel:7402626602">740-262-6602</a>
+            </li>
+            <li>
+              <span class="label">Email</span>
+              <a href="mailto:banebookkeeping@outlook.com">banebookkeeping@outlook.com</a>
+            </li>
+            <li>
+              <span class="label">Service Area</span>
+              <span class="value">Delaware, Ohio &amp; Central Ohio</span>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Send a Message</h2>
+          <!--
+            This form uses Formspree (formspree.io) — a free service for
+            handling contact-form submissions on static sites like this one.
+            To activate it: create a free Formspree account, create a new
+            form, and replace YOUR_FORM_ID below with the ID it gives you.
+            Until then, the form will not deliver messages — the phone
+            and email above will still work immediately.
+          -->
+          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="field">
+              <label for="business">Business Name</label>
+              <input type="text" id="business" name="business">
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">Bane<span>Bookkeeping</span></a>
+        <p>Bookkeeping for small and local businesses across central Ohio. Based in Delaware, Ohio.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:7402626602">740-262-6602</a></li>
+          <li><a href="mailto:banebookkeeping@outlook.com">banebookkeeping@outlook.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Bane Bookkeeping LLC. All rights reserved.</span>
+      <span>Delaware, Ohio</span>
+    </div>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+</body>
+</html>
