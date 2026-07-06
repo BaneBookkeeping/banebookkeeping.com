@@ -131,9 +131,19 @@ header.site-header {
   font-size: 1.25rem;
   color: var(--cream);
   letter-spacing: 0.01em;
+  display: inline-flex;
+  align-items: center;
 }
 .brand span { color: var(--green-bright); }
 .brand:hover { text-decoration: none; }
+
+.brand-logo {
+  height: 42px;
+  width: auto;
+  display: block;
+}
+
+.footer-brand .brand-logo { height: 54px; margin-bottom: 12px; }
 
 nav.main-nav ul {
   list-style: none;
